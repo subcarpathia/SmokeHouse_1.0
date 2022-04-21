@@ -1,4 +1,10 @@
 /*
+
+/********************************************************
+  Somoke House Version 1.0 
+******************************************************
+
+
   Permission is hereby granted, free of charge, to any person obtaining a copy
   of this software and associated documentation files.
   
@@ -36,8 +42,8 @@ const int WiFiMode = 0;   // 0 - Hardcoded STA MODE, 1 - Hardcoded AP Mode, 2 - 
 
 // Replace with your network credentials    //hardcoded
 
-const char* ssid_STA = "NEXET_SP";
-const char* password_STA = "1123345567";
+const char* ssid_STA = "REPLACE_WITH_YOUR_SSID";
+const char* password_STA = "REPLACE_WITH_YOUR_PASSWORD";
 
 // Create AsyncWebServer object on port 80
 AsyncWebServer server(80);
